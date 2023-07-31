@@ -1,4 +1,4 @@
-name: Bug Report 🐛
+name: Bug Report🐛
 
 about: Create a bug report to help us improve
 
@@ -7,10 +7,9 @@ labels: bug
 
 body:
   - type: markdown
-    attributes:
-      value: |
-        **Describe the bug**
-        A clear and concise description of what the bug is.
+    value: |
+      **Describe the bug**
+      A clear and concise description of what the bug is.
 
   - type: input
     id: expected_behavior
@@ -37,10 +36,9 @@ body:
       description: Add any other context about the problem here.
 
   - type: markdown
-    attributes:
-      value: |
-        **Screenshots**
-        If applicable, add screenshots to help explain your problem.
+    value: |
+      **Screenshots**
+      If applicable, add screenshots to help explain your problem.
 
   - type: input
     id: environment
@@ -49,12 +47,10 @@ body:
       description: e.g., operating system, browser, version, etc.
 
   - type: markdown
-    attributes:
-      value: |
-        **Additional Information**
-        Add any other information about the problem here.
+    value: |
+      **Additional Information**
+      Add any other information about the problem here.
 
   - type: markdown
-    attributes:
-      value: |
-        **_Before submitting the issue, make sure to remove any sensitive information._**
+    value: |
+      **_Before submitting the issue, make sure to remove any sensitive information._**
